@@ -1,7 +1,21 @@
-def my_print(self):
-    """Print the square with the character #."""
-    if self.__size == 0:
-        print()
-        return
-    for i in range(self.__size):
-        print("#" * self.__size)
+#!/usr/bin/python3
+"""Module tha method."""
+
+
+class Square:
+    """Represation."""
+
+    def __init__(self, size=0):
+        """In size."""
+        self.size = size  # setter will validate
+
+    @property
+    def size(self):
+        """Rere."""
+        return self.__size
+
+    @size.setter
+    def size(self, value):
+        """idation."""
+        if not isinstance(value, int):
+
