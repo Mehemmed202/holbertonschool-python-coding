@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""A"""
+"""asas"""
 
 
 def __init__(self, size=0):
-    """C"""
+    """ss"""
 
     if not isinstance(size, int):
         raise TypeError("size must be an integer")
