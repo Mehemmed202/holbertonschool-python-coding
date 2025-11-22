@@ -18,4 +18,3 @@ class Square:
     def size(self, value):
         """idation."""
         if not isinstance(value, int):
-
